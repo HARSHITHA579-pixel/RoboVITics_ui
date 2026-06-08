@@ -1,0 +1,372 @@
+================================================================================
+
+                    WEBSITE INFORMATION: robovitics.in
+
+                   RoboVITics — Official Robotics Club of VIT Vellore
+
+================================================================================
+
+URL         : https://robovitics.in/
+
+Category    : Student Club / Robotics & Technology
+
+Institution : Vellore Institute of Technology (VIT), Vellore, India
+
+================================================================================
+
+SECTION 1 — HOME
+
+================================================================================
+
+Taglines / Mottos:
+
+"A place to learn, a chance to grow"
+
+"Innovation is when Imagination meets Ambition"
+
+RoboVITics is the official Robotics Club of VIT, Vellore. It is a group of
+
+ardent tech enthusiasts with the zeal to learn, to build, and a thirst to be
+
+the best. The club organizes free workshops, seminars, and competitions, and
+
+its members collaborate on projects that represent VIT at national and
+
+international levels.
+
+================================================================================
+
+SECTION 2 — ABOUT VIT
+
+================================================================================
+
+Vellore Institute of Technology (VIT) is a private deemed university founded
+
+by G. Viswanathan in 1984. Its mission is to improve students' lives through
+
+excellence in education and research.
+
+The Department of Student Welfare plays an irreplaceable role in creating a
+
+lively, fun, and resourceful community for students. Every year they join
+
+hands with VIT's Clubs and Chapters so that every student finds an environment
+
+where they can learn and grow together.
+
+================================================================================
+
+SECTION 3 — ABOUT US
+
+================================================================================
+
+RoboVITics is a group of ardent tech enthusiasts with the zeal to learn, to
+
+build, and a thirst to be the best. What started as a small group of passionate
+
+techies exploring different domains of technology has blossomed into the
+
+official Robotics Club of VIT, Vellore.
+
+MISSION:
+
+To spread knowledge about robotics by organizing various free workshops and
+
+seminars that help people find their technical niches and build their own
+
+projects.
+
+WHAT THEY DO:
+
+Collaborate on incredible projects
+
+Nurture glorious teams that represent VIT all over the world
+
+Hold several accolades from national and international competitions
+
+Uphold the legacy left by predecessors (all members called "RoboVITians")
+
+================================================================================
+
+SECTION 4 — EVENTS
+
+================================================================================
+
+4.1  EQUINOX
+
+ A jam-packed 36-hour hackathon/tech session where participants can share
+
+ ideas and creativity, valued by an enthusiastic audience. Mentors and mini
+
+ workshops with abundant resources are available throughout the event.
+
+4.2  VORTEX 360
+
+ A CAD modelling hackathon powered by AutoDesk. Designers are inspired to
+
+ let their creative juices flow and elevate their designs into something
+
+ truly original and useful.
+
+ Theme: "Design is not just what it looks like and feels like.
+
+         Design is how it works."
+
+4.3  MACHINE DESIGN
+
+ A workshop using Fusion 360 to turn vivid design imaginations into modelled
+
+ reality. Participants interact with a great community of Fusion 360
+
+ designers and experts, exploring CAD and modern design trends.
+
+4.4  HANDS ON ROBOTICS
+
+ RoboVITics' annual workshop focused on learning basic skills to design fully
+
+ functional mobile Arduino robots. Bots built include:
+
+   - Line Follower
+
+   - Obstacle Avoider
+
+   - Other computer-controlled bots using various sensors
+
+4.5  ROBOWARS
+
+ The flagship event of Gravitas (VIT's annual tech fest). A Robot Combat
+
+ Competition where participants from around the globe battle for the coveted
+
+ RoboWars Champion Title. "Sparks fly as metal crushes metal."
+
+================================================================================
+
+SECTION 5 — OUTREACH (KARTAVYA)
+
+================================================================================
+
+"Together we can make a difference"
+
+RoboVITics believes it is their "kartavya" (duty) to give back to society and
+
+make a difference in the lives of the underprivileged.
+
+ACTIVITIES:
+
+Collaborates with educational institutions across India
+
+Sparks curiosity in young minds through STEM education
+
+Introduces children to valuable STEM skills for a better future
+
+Sessions involve fun activities and focus on bringing out untapped potential
+
+"Bringing smiles to their faces and learning from their visionary minds"
+
+================================================================================
+
+SECTION 6 — DOMAINS
+
+================================================================================
+
+RoboVITics works across the following technical domains:
+
+ELECTRICAL
+
+MECHANICAL
+
+ML & AI       (Machine Learning and Artificial Intelligence)
+
+CYBERSECURITY
+
+WEB DEVELOPMENT
+
+APP DEVELOPMENT
+
+================================================================================
+
+SECTION 7 — TEAMS
+
+================================================================================
+
+--- TEAM ORCUS (Combat Robotics Division) ---
+
+Website  : teamorcus.in
+
+Founded  : 2016
+
+Overview : Team Orcus is the combat robotics division of RoboVITics. They
+
+       independently design and manufacture combat robots from scratch.
+
+Principles : Authenticity | Originality | Dedication | Perseverance
+
+Ranking    : Ranked 6th worldwide among all combat robotics teams by
+
+         IIT Bombay's Techfest
+
+Notable Robots:
+
+RAVEN    — 60Kg combat robot
+
+VULCAN   — 15Kg combat robot
+
+INSOMNIA — Combat robot
+
+--- CORE BOARD MEMBERS ---
+
+Role                              | Name
+
+----------------------------------|---------------------------
+
+Chairperson                       | Aryan Bharuka
+
+Vice-Chairperson                  | Aniruddh Chowdhury
+
+Secretary / Gen. Sec.             | Dhruv Agrawal
+
+Co-Secretary                      | Srinidhi Balaji
+
+Projects Head                     | Yash Bajpai
+
+R&D Head                          | Chaitanya Tejaswi
+
+Tech Head                         | Anirudha Dhawale
+
+Events Head                       | Aravind B
+
+PR Head                           | Saumya Tomar
+
+Design Head                       | Nilaksh Kashyap
+
+Events Coordinator (Hacks)        | Rounit Kumar
+
+Events Coordinator (MD)           | Bibaswan Roy
+
+Events Coordinator (ICR)          | Shivam Pasi
+
+================================================================================
+
+SECTION 8 — PROJECTS
+
+================================================================================
+
+Members collaborate across all domains to build innovative robotics and
+
+technology projects.
+
+Notable Highlighted Project:
+
+SPIDERBOT
+
+A robot with a spider-like design and a unique walking mechanism based on
+
+the Klann linkage mechanism, which helps it move through rough terrain with
+
+ease. The 8-legged bot is assembled using 3D-printed components and can be
+
+programmed to perform dangerous tasks such as:
+
+- Bomb defusing
+
+- Land mine detection
+
+- Underwater surveillance
+
+(Used in scenarios where human involvement is impossible or very risky.)
+
+================================================================================
+
+SECTION 9 — ACHIEVEMENTS
+
+================================================================================
+
+| Award / Result             | Event                | Venue / Host       | Robot / Notes
+
+---|----------------------------|----------------------|--------------------|-----------------------------------
+
+1  | WINNER                     | PU Projections '21   | Parul University   | VULCAN — Hell in the Cell (15Kg)
+
+2  | Best Engineering Design     | RoboWars 2018        | VIT, Vellore       | RAVEN — Gravitas 60Kg winner
+
+3  | Ranked 3rd                  | RoboWars 2019        | Anna University    | RAVEN — Kurukshetra 60Kg
+
+4  | Runner Up                   | RoboWars 2020        | BITS Goa           | RAVEN — Gravitas 60Kg
+
+5  | Ranked 6th Internationally  | Techfest             | IIT Bombay         | Ranked 6th worldwide
+
+6  | Record Knockout             | Techfest             | IIT Bombay         | Defeated Team Rio-Botz in 16 sec
+
+7  | Record Knockout             | Techfest             | IIT Bombay         | Defeated Team Enery (Russia)
+
+8  | Organiser                   | RoboWars             | VIT, Vellore       | India's largest & safest arena
+
+================================================================================
+
+SECTION 10 — SPONSORS
+
+================================================================================
+
+Siemens
+
+Analog Devices Inc. (ADI)
+
+Autodesk
+
+Persistence Systems
+
+================================================================================
+
+SECTION 11 — MEMORIES
+
+================================================================================
+
+"What matters more is not the destination, but how you reached there. The
+
+memories of success and failure, the sounds of fun and laughter, the tones
+
+of determination and growth are part of the timeless treasures of our club."
+
+Photo categories visible on site:
+
+RoboWars competitions
+
+Holi celebration
+
+Friendship Day
+
+Junior Members Meet
+
+General club events and celebrations
+
+================================================================================
+
+SECTION 12 — CONTACT US
+
+================================================================================
+
+Email   : robovitics@vit.ac.in
+
+Phone   : 7875115111
+
+Social Media:
+
+Twitter   : https://twitter.com/robo_vit
+
+Facebook  : https://www.facebook.com/robovitics
+
+Instagram : https://www.instagram.com/robovitics/
+
+LinkedIn  : https://www.linkedin.com/company/robovitics/
+
+YouTube   : https://www.youtube.com/channel/UCFiwOI-W5b06NweratR-RdA
+
+GitHub    : https://github.com/RoboVITics
+
+================================================================================
+
+END OF FILE
+
+================================================================================
+
