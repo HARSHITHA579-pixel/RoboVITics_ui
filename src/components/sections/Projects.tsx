@@ -20,15 +20,6 @@ export default function Projects() {
     <section id="projects" ref={containerRef} className="relative py-32 overflow-hidden bg-transparent">
       <div className="container mx-auto px-6 relative z-10">
         <div className="mb-20 text-center max-w-3xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-background mb-8"
-          >
-            <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-accent text-xs font-semibold tracking-widest uppercase">Projects</span>
-          </motion.div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
             <TextReveal text="Pioneering Robotics" />
           </h2>

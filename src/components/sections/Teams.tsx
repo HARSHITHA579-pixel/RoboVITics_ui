@@ -24,15 +24,6 @@ export default function Teams() {
         
         {/* TEAM ORCUS */}
         <div className="mb-32">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-8"
-          >
-            <Shield className="w-4 h-4 text-accent" />
-            <span className="text-muted text-xs font-semibold tracking-widest uppercase">Combat Robotics Division</span>
-          </motion.div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>

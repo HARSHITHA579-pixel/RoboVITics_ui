@@ -85,7 +85,7 @@ export default function Footer() {
                 viewport={{ once: true }}
                 className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white mb-6 tracking-tighter leading-tight"
               >
-                Ready to Build the Future?
+                Innovate. Build. Inspire.
               </motion.h2>
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}

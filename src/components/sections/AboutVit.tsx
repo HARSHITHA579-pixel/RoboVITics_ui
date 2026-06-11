@@ -46,12 +46,12 @@ export default function AboutVit() {
       className="relative min-h-[110dvh] flex items-center pt-20 pb-20 md:pt-28 md:pb-32 overflow-hidden bg-transparent"
     >
 
-      <div className="container mx-auto px-6 relative z-10 max-w-7xl">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-16 lg:gap-24 xl:gap-32">
+      <div className="container mx-auto px-6 md:px-12 relative z-10 max-w-[90rem]">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 xl:gap-20">
 
-          {/* Image Side - First on mobile, Left on desktop */}
-          <div className="w-full md:w-1/2 relative aspect-[4/3] lg:aspect-[5/4]">
-            <div className="relative w-full h-full rounded-3xl overflow-hidden bg-surface border border-white/10 shadow-2xl">
+          {/* Image Side - Increased size, better proportions */}
+          <div className="w-full lg:w-[48%] xl:w-[50%] relative aspect-[4/3] md:aspect-[16/10] lg:aspect-[4/3] xl:aspect-[16/11] shrink-0">
+            <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden bg-surface border border-white/10 shadow-2xl">
               <motion.div
                 className="absolute left-0 right-0 w-full"
                 style={{ top: "-15%", height: "130%", y, scale }}
@@ -64,43 +64,34 @@ export default function AboutVit() {
               </motion.div>
 
               {/* Subtle overlays for premium feel */}
-              <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent z-10 pointer-events-none mix-blend-overlay" />
-              <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-3xl pointer-events-none z-20" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent z-10 pointer-events-none mix-blend-overlay" />
+              <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-[2.5rem] pointer-events-none z-20" />
             </div>
           </div>
 
-          {/* Content Side - Second on mobile, Right on desktop */}
-          <div className="w-full md:w-1/2 flex flex-col justify-center">
+          {/* Content Side - Wider card, shifted right */}
+          <div className="w-full lg:w-[52%] xl:w-[50%] flex flex-col justify-center lg:pl-4 xl:pl-12 lg:translate-x-4 xl:translate-x-8">
             <motion.div
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-10%" }}
-              className="flex flex-col items-start bg-black/40 backdrop-blur-xl p-8 md:p-10 rounded-[2rem] border border-white/5 shadow-2xl relative z-10"
+              className="flex flex-col items-start bg-black/40 backdrop-blur-2xl p-8 md:p-12 lg:p-14 rounded-[2rem] border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.5)] relative z-10 w-full"
             >
-              <motion.div variants={itemVariants} className="mb-8">
-                <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
-                  <span className="w-2 h-2 rounded-full bg-accent" />
-                  <span className="text-muted text-xs font-semibold tracking-widest uppercase">The Institution</span>
-                </div>
-              </motion.div>
 
               <motion.h2
                 variants={itemVariants}
-                className="mb-8 text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight"
+                className="mb-8 text-4xl md:text-5xl lg:text-[3.5rem] font-heading font-bold text-white leading-[1.1] tracking-tight"
               >
-                Vellore Institute of Technology
+                Vellore Institute of<br className="hidden md:block" /> Technology
               </motion.h2>
 
-              <div className="space-y-6 text-lg md:text-xl text-muted font-light leading-relaxed max-w-xl">
+              <div className="space-y-6 text-lg md:text-xl text-muted font-light leading-relaxed w-full">
                 <motion.p variants={itemVariants}>
                   Founded by G. Viswanathan in 1984, its mission is to improve students' lives through excellence in education and research.
                 </motion.p>
                 <motion.p variants={itemVariants}>
-                  The Department of Student Welfare plays an irreplaceable role in creating a lively, fun, and resourceful community for students,
-                </motion.p>
-                <motion.p variants={itemVariants}>
-                  joining hands with clubs so every student finds an environment to learn and grow together.
+                  The Department of Student Welfare plays an irreplaceable role in creating a lively, fun, and resourceful community for students, joining hands with clubs so every student finds an environment to learn and grow together.
                 </motion.p>
               </div>
             </motion.div>

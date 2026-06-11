@@ -9,8 +9,8 @@ const domains = [
   { name: "MECHANICAL", icon: Settings, color: "from-gray-300 to-gray-500" },
   { name: "ML & AI", icon: BrainCircuit, color: "from-purple-400 to-pink-500" },
   { name: "CYBERSECURITY", icon: ShieldAlert, color: "from-green-400 to-emerald-600" },
-  { name: "WEB DEV", icon: Globe, color: "from-blue-400 to-cyan-500" },
-  { name: "APP DEV", icon: Smartphone, color: "from-indigo-400 to-blue-600" },
+  { name: "WEB DEV", icon: Globe, color: "from-[#4FAEF3] to-[#2C6EA8]" },
+  { name: "APP DEV", icon: Smartphone, color: "from-[#6BC0FF] to-[#4FAEF3]" },
 ];
 
 export default function Domains() {

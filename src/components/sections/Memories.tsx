@@ -58,8 +58,8 @@ export default function Memories() {
         <style dangerouslySetInnerHTML={{__html: `
           .memories-scroll::-webkit-scrollbar { height: 6px; }
           .memories-scroll::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); border-radius: 10px; }
-          .memories-scroll::-webkit-scrollbar-thumb { background: rgba(0, 240, 255, 0.3); border-radius: 10px; }
-          .memories-scroll::-webkit-scrollbar-thumb:hover { background: rgba(0, 240, 255, 0.6); }
+          .memories-scroll::-webkit-scrollbar-thumb { background: rgba(79, 174, 243, 0.3); border-radius: 10px; }
+          .memories-scroll::-webkit-scrollbar-thumb:hover { background: rgba(79, 174, 243, 0.6); }
         `}} />
         
         <div className="flex flex-col gap-6 w-max px-6">

@@ -65,7 +65,7 @@ export default function PinnedVideo() {
             </motion.h2>
             <motion.h2
               style={{ opacity: opacity4, y: y4 }}
-              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-[0_0_30px_rgba(0,240,255,0.3)] tracking-tighter uppercase"
+              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-[0_0_30px_rgba(79,174,243,0.3)] tracking-tighter uppercase"
             >
               Competition
             </motion.h2>
