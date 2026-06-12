@@ -7,14 +7,12 @@ import Sponsors from "./Sponsors";
 import Memories from "./Memories";
 
 const boardMembers = [
-  { role: "Chairperson", name: "Aryan Bharuka" },
-  { role: "Vice-Chairperson", name: "Aniruddh Chowdhury" },
-  { role: "Secretary", name: "Dhruv Agrawal" },
-  { role: "Co-Secretary", name: "Srinidhi Balaji" },
-  { role: "Projects Head", name: "Yash Bajpai" },
-  { role: "R&D Head", name: "Chaitanya Tejaswi" },
-  { role: "Tech Head", name: "Anirudha Dhawale" },
-  { role: "Events Head", name: "Aravind B" },
+  { role: "Chairperson", name: "Yash Pathak" },
+  { role: "Vice Chairperson", name: "Navaneeth" },
+  { role: "Secretary", name: "Ayan" },
+  { role: "Co-Secretary", name: "Harsh Patel" },
+  { role: "RoboWars Head", name: "Arnav Srivastav" },
+  { role: "Technical Head", name: "Ujjwal" },
 ];
 
 export default function Teams() {
@@ -25,12 +23,12 @@ export default function Teams() {
         {/* TEAM ORCUS */}
         <div className="mb-32">
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
-              <h2 className="text-4xl sm:text-5xl md:text-7xl font-heading font-black text-white mb-6 tracking-tighter break-words">
+              <h2 className="text-3xl sm:text-4xl md:text-7xl font-heading font-black text-white mb-6 tracking-tighter break-words">
                 <TextReveal text="TEAM ORCUS" />
               </h2>
-              <p className="text-xl text-muted font-light leading-relaxed mb-8">
+              <p className="text-lg md:text-xl text-muted font-light leading-relaxed mb-8">
                 The combat robotics division of RoboVITics. We independently design and manufacture combat robots from scratch.
               </p>
               
@@ -66,7 +64,7 @@ export default function Teams() {
               </a>
             </div>
             
-            <div className="relative h-[400px] rounded-3xl border border-white/10 bg-surface overflow-hidden group">
+            <div className="relative h-[300px] sm:h-[400px] rounded-3xl border border-white/10 bg-surface overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-br from-background to-surface z-0" />
               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/black-scales.png')] opacity-20 z-0 mix-blend-overlay" />
               
@@ -101,21 +99,36 @@ export default function Teams() {
             <p className="text-muted">The minds driving the vision of RoboVITics forward.</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <style dangerouslySetInnerHTML={{__html: `
+            .team-scroll::-webkit-scrollbar { height: 6px; }
+            .team-scroll::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); border-radius: 10px; }
+            .team-scroll::-webkit-scrollbar-thumb { background: rgba(79, 174, 243, 0.3); border-radius: 10px; }
+            .team-scroll::-webkit-scrollbar-thumb:hover { background: rgba(79, 174, 243, 0.6); }
+          `}} />
+
+          <div 
+            className="flex w-full overflow-x-auto overflow-y-hidden pb-8 pt-4 gap-6 md:gap-10 team-scroll snap-x snap-mandatory"
+            style={{ scrollbarWidth: "thin", WebkitOverflowScrolling: "touch" }}
+          >
             {boardMembers.map((member, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
-                className="p-6 rounded-2xl bg-surface border border-white/5 hover:border-white/20 transition-colors flex flex-col items-center text-center group"
+                className="flex flex-col items-center flex-shrink-0 snap-center w-[200px] md:w-[240px] group cursor-pointer"
               >
-                <div className="w-12 h-12 rounded-full bg-background border border-white/10 flex items-center justify-center text-muted mb-4 group-hover:text-accent group-hover:border-accent/30 transition-colors">
-                  <Users className="w-5 h-5" />
+                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-surface border-2 border-white/10 flex items-center justify-center mb-5 group-hover:border-accent/80 group-hover:shadow-[0_0_25px_rgba(79,174,243,0.25)] transition-all duration-300 overflow-hidden relative">
+                  <img 
+                    src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=111&color=fff&size=200&font-size=0.33`}
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
                 </div>
-                <h3 className="text-white font-bold mb-1">{member.name}</h3>
-                <p className="text-accent text-xs font-semibold tracking-wider uppercase">{member.role}</p>
+                <h3 className="text-white font-bold text-lg md:text-xl text-center mb-1 group-hover:text-accent transition-colors">{member.name}</h3>
+                <p className="text-muted group-hover:text-white/80 text-xs md:text-sm font-semibold tracking-wider uppercase text-center transition-colors">{member.role}</p>
               </motion.div>
             ))}
           </div>

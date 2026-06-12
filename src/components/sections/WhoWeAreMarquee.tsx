@@ -34,10 +34,10 @@ export default function WhoWeAreMarquee() {
         >
           {[...row1Data, ...row1Data].map((item, idx) => (
             <div key={idx} className="flex items-center gap-6 md:gap-10 shrink-0">
-              <span className="text-[32px] md:text-[48px] font-heading font-[800] text-white tracking-tighter uppercase leading-none whitespace-nowrap">
+              <span className="text-[24px] sm:text-[32px] md:text-[48px] font-heading font-[800] text-white tracking-tighter uppercase leading-none whitespace-nowrap">
                 {item.text}
               </span>
-              <div className="relative w-[160px] h-[55px] md:w-[250px] md:h-[80px] overflow-hidden rounded-full shrink-0">
+              <div className="relative w-[120px] h-[40px] sm:w-[160px] sm:h-[55px] md:w-[250px] md:h-[80px] overflow-hidden rounded-full shrink-0">
                 <Image
                   src={item.image}
                   alt="Marquee image"
@@ -63,10 +63,10 @@ export default function WhoWeAreMarquee() {
         >
           {[...row2Data, ...row2Data].map((item, idx) => (
             <div key={idx} className="flex items-center gap-6 md:gap-10 shrink-0">
-              <span className="text-[32px] md:text-[48px] font-heading font-[800] text-white tracking-tighter uppercase leading-none whitespace-nowrap">
+              <span className="text-[24px] sm:text-[32px] md:text-[48px] font-heading font-[800] text-white tracking-tighter uppercase leading-none whitespace-nowrap">
                 {item.text}
               </span>
-              <div className="relative w-[160px] h-[55px] md:w-[250px] md:h-[80px] overflow-hidden rounded-full shrink-0">
+              <div className="relative w-[120px] h-[40px] sm:w-[160px] sm:h-[55px] md:w-[250px] md:h-[80px] overflow-hidden rounded-full shrink-0">
                 <Image
                   src={item.image}
                   alt="Marquee image"

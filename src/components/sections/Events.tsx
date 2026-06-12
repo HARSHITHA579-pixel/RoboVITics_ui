@@ -47,7 +47,7 @@ export default function Events() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="mb-20">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-6">
             <TextReveal text="Flagship Events & Workshops" />
           </h2>
         </div>
@@ -60,7 +60,7 @@ export default function Events() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className={`relative p-8 rounded-3xl border ${
+              className={`relative p-6 md:p-8 rounded-3xl border ${
                 event.highlight ? "border-accent/40 bg-accent/5" : "border-white/10 bg-surface"
               } overflow-hidden group hover:border-accent/60 transition-colors`}
             >

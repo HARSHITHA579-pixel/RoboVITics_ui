@@ -76,17 +76,17 @@ export default function AboutVit() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-10%" }}
-              className="flex flex-col items-start bg-black/40 backdrop-blur-2xl p-8 md:p-12 lg:p-14 rounded-[2rem] border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.5)] relative z-10 w-full"
+              className="flex flex-col items-start bg-black/40 backdrop-blur-2xl p-6 sm:p-8 md:p-12 lg:p-14 rounded-[1.5rem] md:rounded-[2rem] border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.5)] relative z-10 w-full"
             >
 
               <motion.h2
                 variants={itemVariants}
-                className="mb-8 text-4xl md:text-5xl lg:text-[3.5rem] font-heading font-bold text-white leading-[1.1] tracking-tight"
+                className="mb-6 md:mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-heading font-bold text-white leading-[1.1] tracking-tight"
               >
                 Vellore Institute of<br className="hidden md:block" /> Technology
               </motion.h2>
 
-              <div className="space-y-6 text-lg md:text-xl text-muted font-light leading-relaxed w-full">
+              <div className="space-y-4 md:space-y-6 text-base sm:text-lg md:text-xl text-muted font-light leading-relaxed w-full">
                 <motion.p variants={itemVariants}>
                   Founded by G. Viswanathan in 1984, its mission is to improve students' lives through excellence in education and research.
                 </motion.p>

@@ -47,7 +47,7 @@ export default function Hero() {
         {/* Left Column: Logo and Subtitle */}
         <div className="w-full md:w-3/5 flex justify-center md:justify-start md:pl-8 lg:pl-16 z-20">
           <div className="flex flex-col items-start">
-            <h1 className="mb-5 flex justify-start w-full">
+            <h1 className="mb-4 md:mb-5 flex justify-center md:justify-start w-full">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -64,7 +64,7 @@ export default function Hero() {
                   alt="RoboVITics"
                   width={1200}
                   height={200}
-                  className="w-auto h-11 md:h-16 lg:h-[90px] object-contain object-left"
+                  className="w-auto h-9 sm:h-11 md:h-16 lg:h-[90px] object-contain object-center md:object-left"
                   priority
                 />
               </motion.div>
@@ -75,7 +75,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
-              <p className="text-lg md:text-2xl lg:text-3xl text-white/75 font-normal leading-normal tracking-wide text-left md:whitespace-nowrap pl-1">
+              <p className="text-base sm:text-lg md:text-2xl lg:text-3xl text-white/75 font-normal leading-normal tracking-wide text-center md:text-left md:whitespace-nowrap px-4 md:px-0 md:pl-1">
                 The Official Robotics Club of VIT Vellore
               </p>
             </motion.div>
@@ -87,7 +87,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="w-full h-[50vh] md:w-[40%] md:h-[80vh] relative z-10 flex items-center justify-center mt-12 md:mt-0"
+          className="w-full h-[40vh] sm:h-[50vh] md:w-[40%] md:h-[80vh] relative z-10 flex items-center justify-center mt-8 md:mt-0"
         >
           <div className="w-full h-full max-w-[600px] max-h-[800px] relative pointer-events-auto">
             <Interactive3DRobot />

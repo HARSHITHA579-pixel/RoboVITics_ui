@@ -47,25 +47,25 @@ export default function PinnedVideo() {
           <div className="flex flex-col items-center gap-4 md:gap-6">
             <motion.h2
               style={{ opacity: opacity1, y: y1 }}
-              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
             >
               Innovation
             </motion.h2>
             <motion.h2
               style={{ opacity: opacity2, y: y2 }}
-              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
             >
               Engineering
             </motion.h2>
             <motion.h2
               style={{ opacity: opacity3, y: y3 }}
-              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-2xl tracking-tighter uppercase"
             >
               Robotics
             </motion.h2>
             <motion.h2
               style={{ opacity: opacity4, y: y4 }}
-              className="text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-[0_0_30px_rgba(79,174,243,0.3)] tracking-tighter uppercase"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-heading font-black text-white drop-shadow-[0_0_30px_rgba(79,174,243,0.3)] tracking-tighter uppercase text-center"
             >
               Competition
             </motion.h2>

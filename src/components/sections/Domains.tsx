@@ -17,12 +17,12 @@ export default function Domains() {
   return (
     <section id="domains" className="relative py-32 overflow-hidden bg-transparent">
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-20 gap-6 md:gap-8">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
               <TextReveal text="Technical Domains" />
             </h2>
-            <p className="text-xl text-muted font-light">
+            <p className="text-lg md:text-xl text-muted font-light">
               We collaborate across diverse fields of technology to build comprehensive and innovative solutions.
             </p>
           </div>

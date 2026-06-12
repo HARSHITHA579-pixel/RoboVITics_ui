@@ -19,11 +19,11 @@ export default function Projects() {
   return (
     <section id="projects" ref={containerRef} className="relative py-32 overflow-hidden bg-transparent">
       <div className="container mx-auto px-6 relative z-10">
-        <div className="mb-20 text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+        <div className="mb-12 md:mb-20 text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
             <TextReveal text="Pioneering Robotics" />
           </h2>
-          <p className="text-xl text-muted font-light">
+          <p className="text-lg md:text-xl text-muted font-light px-2">
             Members collaborate across all domains to build innovative robotics and technology projects.
           </p>
         </div>
@@ -31,13 +31,13 @@ export default function Projects() {
         <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div 
             style={{ y: y1 }}
-            className="order-2 lg:order-1 space-y-8"
+            className="order-2 lg:order-1 space-y-6 md:space-y-8"
           >
             <h3 className="text-4xl sm:text-5xl md:text-7xl font-heading font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-muted tracking-tighter break-words">
               SPIDERBOT
             </h3>
             
-            <div className="space-y-6 text-lg text-muted font-light">
+            <div className="space-y-4 md:space-y-6 text-base md:text-lg text-muted font-light">
               <p>
                 A robot with a spider-like design and a unique walking mechanism based on the Klann linkage mechanism, which helps it move through rough terrain with ease.
               </p>
@@ -62,13 +62,13 @@ export default function Projects() {
 
           <motion.div 
             style={{ y: y2 }}
-            className="order-1 lg:order-2 relative h-[500px] w-full rounded-3xl border border-white/10 bg-background overflow-hidden group"
+            className="order-1 lg:order-2 relative h-[350px] sm:h-[400px] lg:h-[500px] w-full rounded-[2rem] border border-white/10 bg-background overflow-hidden group"
           >
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/20 via-background to-background" />
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
             
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative w-64 h-64">
+              <div className="relative w-64 h-64 scale-75 sm:scale-100">
                 <motion.div 
                   className="absolute inset-0 m-auto w-24 h-24 bg-surface border border-accent/40 rounded-full shadow-neon flex items-center justify-center z-20"
                   animate={{ scale: [1, 1.05, 1] }}

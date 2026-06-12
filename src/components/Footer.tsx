@@ -74,16 +74,16 @@ export default function Footer() {
       <div className="container mx-auto px-6 relative z-10 max-w-7xl">
         
         {/* Top Two Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-12 lg:gap-32 mb-20 md:mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 lg:gap-32 mb-12 md:mb-24">
           
           {/* Left Column */}
-          <div className="flex flex-col h-full min-h-[350px] lg:min-h-[400px]">
+          <div className="flex flex-col h-full min-h-[auto] md:min-h-[350px] lg:min-h-[400px]">
             <div className="flex-grow-0">
               <motion.h2 
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white mb-6 tracking-tighter leading-tight"
+                className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white mb-4 md:mb-6 tracking-tighter leading-tight"
               >
                 Innovate. Build. Inspire.
               </motion.h2>
@@ -103,7 +103,7 @@ export default function Footer() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="flex-grow-0 space-y-10"
+              className="flex-grow-0 space-y-8 md:space-y-10 mt-6 md:mt-0"
             >
               <div>
                 <p className="text-white text-lg font-medium tracking-wide mb-1">VIT Vellore</p>
@@ -135,7 +135,7 @@ export default function Footer() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1 * i }}
-                  className="group flex items-center justify-between py-6 md:py-8 lg:py-10 border-b border-white/10 text-lg md:text-xl lg:text-2xl font-heading font-normal text-muted hover:text-white transition-colors duration-300"
+                  className="group flex items-center justify-between py-4 sm:py-6 md:py-8 lg:py-10 border-b border-white/10 text-lg md:text-xl lg:text-2xl font-heading font-normal text-muted hover:text-white transition-colors duration-300"
                 >
                   <span className="group-hover:translate-x-4 transition-transform duration-500">{link}</span>
                   <ArrowUpRight className="w-6 h-6 md:w-8 md:h-8 opacity-0 -translate-x-4 translate-y-4 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-500 text-accent" />
@@ -147,7 +147,7 @@ export default function Footer() {
         </div>
 
         {/* Social Icons Row */}
-        <div className="flex justify-center items-center gap-8 md:gap-16 py-10 md:py-12 mb-8 md:mb-10 border-b border-white/10">
+        <div className="flex justify-center items-center gap-6 sm:gap-8 md:gap-16 py-8 md:py-12 mb-6 md:mb-10 border-b border-white/10 flex-wrap">
           {socialLinks.map((social, i) => (
             <motion.a 
               key={social.name} 

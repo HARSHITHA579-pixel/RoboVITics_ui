@@ -32,9 +32,9 @@ export default function AboutUs() {
 
       {/* 1. Heading & Description */}
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center pb-24 md:pb-32">
-        <div className="w-[90%] md:w-[80%] lg:w-[65%] mx-auto text-center">
+        <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[65%] mx-auto text-center">
 
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-12 flex justify-center gap-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-8 md:mb-12 flex justify-center gap-2 md:gap-3">
             {["About", "Us"].map((line, i) => (
               <span key={i} className="block overflow-hidden pb-2">
                 <motion.span
@@ -55,7 +55,7 @@ export default function AboutUs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-lg md:text-xl text-white/70 font-light leading-relaxed flex flex-col gap-6"
+            className="text-base sm:text-lg md:text-xl text-white/70 font-light leading-relaxed flex flex-col gap-5 md:gap-6 px-2 md:px-0"
           >
             <p className="italic font-medium text-white/90">
               “Innovation is when Imagination meets Ambition”
@@ -115,7 +115,8 @@ export default function AboutUs() {
           className="mb-16"
         >
           <svg
-            width="100" height="140" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg"
+            className="w-[70px] h-[100px] md:w-[100px] md:h-[140px]"
           >
             {/* Main sweeping curved arrow path */}
             <path d="M 20 30 C 100 30, 140 80, 140 150" stroke="#4FAEF3" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round" />
@@ -132,7 +133,7 @@ export default function AboutUs() {
           viewport={{ once: true }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="group relative inline-flex items-center gap-4 bg-[#0a0a0a] border border-white/10 text-white px-10 py-5 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 hover:border-accent hover:shadow-[0_0_30px_-5px_rgba(79,174,243,0.3)] shadow-2xl"
+          className="group relative inline-flex items-center gap-3 md:gap-4 bg-[#0a0a0a] border border-white/10 text-white px-6 py-4 md:px-10 md:py-5 rounded-full font-semibold text-base md:text-lg overflow-hidden transition-all duration-300 hover:border-accent hover:shadow-[0_0_30px_-5px_rgba(79,174,243,0.3)] shadow-2xl"
         >
           <span className="relative z-10 group-hover:text-accent transition-colors duration-300 tracking-wide">Read Our Magazine</span>
         </motion.a>
